@@ -24,11 +24,6 @@ class EventDetailsFragment : Fragment(R.layout.fragment_event_details) {
 
     private lateinit var event: Event
 
-    companion object {
-        private const val SWIPE_THRESHOLD = 100
-        private const val SWIPE_VELOCITY_THRESHOLD = 100
-    }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         _binding = FragmentEventDetailsBinding.bind(view)

@@ -24,3 +24,8 @@ Design used for this application
 &#9679; Min SDK : 21+ 
 <br>&#9679; Dark mode
 <br>&#9679; Internet
+
+### The way to communicate with me
+<hr>
+
+_Email_ : jakode2020@gmail.com
