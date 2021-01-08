@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="Theme.Eventa" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#AFAFAF</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="android:windowActivityTransitions">true</item>
+    </style>
+
+    <!--BottomSheetDialog-->
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <!--Slider-->
+    <style name="Widget.App.Slider" parent="Widget.MaterialComponents.Slider">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Slider</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Slider" parent="">
+        <item name="colorPrimary">@color/button_color</item>
+        <item name="colorOnPrimary">@color/button_color</item>
+        <item name="colorOnSurface">@color/button_color</item>
+    </style>
+
+    <!--RatingBar-->
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">#d3d3d3</item>
+        <item name="colorControlActivated">#FBC02D</item>
+    </style>
+</resources>

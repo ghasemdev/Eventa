@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dark-->
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#121212</color>
+    <color name="colorAccent">#7D53C6</color>
+    <color name="colorAccentSecondary">#A57CED</color>
+
+    <!--color for background-->
+    <color name="background">#000000</color>
+    <color name="splash_background">#121212</color>
+    <color name="card_background">#1d1d1d</color>
+    <color name="popup_background">#1f1f1f</color>
+    <color name="search_background">#1d1d1d</color>
+    <color name="selected_background">#1A7D53C6</color>
+    <color name="glass_background">#D6CDCDCD</color>
+
+    <!--color for icon-->
+    <color name="icon_color">#F4F4F4</color>
+
+    <!--color for text -->
+    <color name="color_primary_text">#FFFFFF</color>
+    <color name="color_secondary_text">#FDFDFD</color>
+    <color name="color_default_text">#b3ffffff</color>
+
+    <!--color for divider -->
+    <color name="color_divider">#424242</color>
+    <color name="color_divider2">#afb0b1</color>
+
+    <!--radio button color-->
+    <color name="button_color">#7D53C6</color>
+
+</resources>

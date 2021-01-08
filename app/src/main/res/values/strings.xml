@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Eventa</string>
+    <string name="featured">Featured</string>
+    <string name="schedule">Schedule</string>
+    <string name="tickets">Tickets</string>
+    <string name="account">Account</string>
+    <string name="december_16_9_10_pm">DECEMBER 16, 9:10 PM</string>
+    <string name="explore_events">Explore Events</string>
+    <string name="search">Search</string>
+    <string name="for_you">for you</string>
+    <string name="claim_1_free_ticket">Claim 1 free ticket!</string>
+    <string name="share_an_event">Share an event to with friends and get 1 ticket.</string>
+    <string name="price">price</string>
+    <string name="buy_a_ticket">buy a ticket</string>
+    <string name="participants">PARTICIPANTS</string>
+    <string name="about">ABOUT</string>
+    <string name="location">location</string>
+</resources>

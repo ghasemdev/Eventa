@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_featured"
+    app:startDestination="@id/featuredFragment">
+    <fragment
+        android:id="@+id/featuredFragment"
+        android:name="com.jakode.eventa.ui.featured.FeaturedFragment"
+        android:label="fragment_featured"
+        tools:layout="@layout/fragment_featured">
+        <action
+            android:id="@+id/action_featuredFragment_to_eventDetailsFragment"
+            app:destination="@id/eventDetailsFragment"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventDetailsFragment"
+        android:name="com.jakode.eventa.ui.details.EventDetailsFragment"
+        android:label="fragment_event_details"
+        tools:layout="@layout/fragment_event_details">
+        <argument
+            android:name="event"
+            app:argType="com.jakode.eventa.model.Event" />
+    </fragment>
+</navigation>

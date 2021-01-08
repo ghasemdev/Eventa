@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_tickets"
+    app:startDestination="@id/ticketsFragment">
+    <fragment
+        android:id="@+id/ticketsFragment"
+        android:name="com.jakode.eventa.ui.tickets.TicketsFragment"
+        android:label="fragment_tickets"
+        tools:layout="@layout/fragment_tickets" />
+</navigation>
